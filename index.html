@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CleanSwift | Terms & Conditions</title>
+  <meta name="description" content="Terms and Conditions for the CleanSwift Laundry Service App." />
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --muted: #4b5563;
+      --text: #111827;
+      --accent: #22c55e;
+      --link: #2563eb;
+      --border: #e5e7eb;
+      --warning: #dc2626;
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .container {
+      max-width: 920px;
+      margin: 48px auto;
+      padding: 0 20px 80px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.06);
+      overflow: hidden;
+    }
+    header {
+      padding: 28px 28px 12px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(0,0,0,0.02), transparent);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      background: radial-gradient(circle at 30% 30%, var(--accent), #16a34a 60%, #065f46 100%);
+      border: 1px solid var(--border);
+    }
+    h1 { font-size: 1.8rem; margin: 0; letter-spacing: .2px; }
+    .subtitle { color: var(--muted); margin-top: 6px; font-size: .98rem; }
+    .meta { color: var(--muted); font-size: .9rem; margin-top: 8px; }
+
+    nav.toc {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(0,0,0,0.02);
+    }
+    nav.toc h2 { font-size: 1rem; margin: 0 0 10px; color: var(--muted); }
+    .toc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 10px 20px;
+      list-style: none;
+      padding: 0; margin: 0;
+    }
+    .toc-grid a { color: var(--link); text-decoration: none; }
+    .toc-grid a:hover { text-decoration: underline; }
+
+    main { padding: 24px 28px 32px; }
+    section { padding: 18px 0 6px; border-bottom: 1px dashed var(--border); }
+    section:last-child { border-bottom: 0; }
+    h3 { margin: 0 0 10px; font-size: 1.2rem; }
+    p { line-height: 1.65; color: var(--text); }
+    ul { padding-left: 20px; line-height: 1.6; color: var(--text); }
+    code.placeholder {
+      background: #f3f4f6;
+      padding: 2px 6px; border-radius: 6px; border: 1px dashed var(--border);
+      color: var(--muted); font-size: .92rem;
+    }
+    a { color: var(--link); }
+
+    .notice {
+      padding: 12px 14px; background: #fef9c3;
+      border: 1px solid #fde68a;
+      border-radius: 12px; color: #854d0e; font-size: .95rem;
+    }
+    .muted { color: var(--muted); }
+
+    footer {
+      padding: 18px 28px 28px; border-top: 1px solid var(--border);
+      display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+      background: linear-gradient(0deg, rgba(0,0,0,0.02), transparent);
+    }
+    .btn-top { text-decoration: none; font-size: .95rem; color: var(--text); }
+
+    /* Print */
+    @media print {
+      body { background: #fff; color: #000; }
+      .card, header, nav.toc, footer { box-shadow: none; background: #fff; border: none; }
+      a { color: #000; text-decoration: underline; }
+      .btn-top { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true"></div>
+          <div>
+            <h1>CleanSwift – Terms &amp; Conditions</h1>
+            <p class="subtitle">These Terms govern your access to and use of the CleanSwift laundry and dry‑cleaning pickup/delivery services and mobile/web apps.</p>
+            <p class="meta"><strong>Effective Date:</strong> <span id="effective-date">[Set Effective Date]</span> • <strong>Last Updated:</strong> <span id="last-updated">[Auto/Manual]</span></p>
+          </div>
+        </div>
+      </header>
+
+
+      <nav class="toc" aria-label="Table of contents">
+        <h2>Contents</h2>
+        <ol class="toc-grid">
+          <li><a href="#acceptance">1. Acceptance of Terms</a></li>
+          <li><a href="#definitions">2. Definitions</a></li>
+          <li><a href="#services">3. Services</a></li>
+          <li><a href="#orders">4. Orders, Pricing &amp; Payment</a></li>
+          <li><a href="#scheduling">5. Scheduling, Pickup &amp; Delivery</a></li>
+          <li><a href="#care">6. Garment Care &amp; Limitations</a></li>
+          <li><a href="#loss">7. Lost or Damaged Items</a></li>
+          <li><a href="#quality">8. Quality Guarantee &amp; Re‑cleaning</a></li>
+          <li><a href="#prohibited">9. Customer Responsibilities &amp; Prohibited Items</a></li>
+          <li><a href="#cancellations">10. Cancellations, No‑Shows &amp; Delays</a></li>
+          <li><a href="#subscriptions">11. Promotions, Credits &amp; Subscriptions</a></li>
+          <li><a href="#app-use">12. App Use &amp; Acceptable Use</a></li>
+          <li><a href="#privacy">13. Privacy</a></li>
+          <li><a href="#ip">14. Intellectual Property</a></li>
+          <li><a href="#third-party">15. Third‑Party Services</a></li>
+          <li><a href="#warranties">16. Disclaimers &amp; Warranties</a></li>
+          <li><a href="#liability">17. Limitation of Liability</a></li>
+          <li><a href="#indemnity">18. Indemnification</a></li>
+          <li><a href="#termination">19. Termination</a></li>
+          <li><a href="#governing-law">20. Governing Law &amp; Disputes</a></li>
+          <li><a href="#contact">21. Contact</a></li>
+          <li><a href="#changes">22. Changes to These Terms</a></li>
+          <li><a href="#misc">23. Miscellaneous</a></li>
+        </ol>
+      </nav>
+
+      <main>
+        <p class="notice"><strong>Heads‑up:</strong> This template is for general informational purposes and is <em>not</em> legal advice. Consult a qualified attorney to tailor these Terms to your business and applicable law.</p>
+
+        <section id="acceptance">
+          <h3>1) Acceptance of Terms</h3>
+          <p>By creating an account, placing an order, or using the CleanSwift mobile or web app (collectively, the “Service”), you agree to be bound by these Terms &amp; Conditions (“Terms”). If you do not agree, do not access or use the Service.</p>
+          <p>These Terms are between you and <code class="placeholder">[CleanSwift legal entity name]</code> (“CleanSwift,” “we,” “us,” or “our”).</p>
+        </section>
+
+        <section id="definitions">
+          <h3>2) Definitions</h3>
+          <ul>
+            <li><strong>Order:</strong> Your request for laundry/dry‑cleaning services placed via the app/website or via authorized channels.</li>
+            <li><strong>Pickup/Delivery Window:</strong> The time slots you select for pickup and drop‑off.</li>
+            <li><strong>Items:</strong> Garments, linens, or other textiles provided by you for service.</li>
+          </ul>
+        </section>
+
+        <section id="services">
+          <h3>3) Services</h3>
+          <p>We provide wash &amp; fold, dry‑cleaning, ironing/steam press, stain treatment, and related services as listed in the app. Service availability, turnaround times, and pricing may vary by location.</p>
+          <ul>
+            <li>Standard turnaround: <code class="placeholder">[e.g., 24–48 hours for wash &amp; fold; 72 hours for dry‑clean]</code>.</li>
+            <li>Express/priority service may be available for an additional fee.</li>
+            <li>Special handling requests are accepted at our discretion and may incur surcharges.</li>
+          </ul>
+        </section>
+
+        <section id="orders">
+          <h3>4) Orders, Pricing &amp; Payment</h3>
+          <ul>
+            <li>Prices are shown in‑app and may change without notice; the price at order confirmation applies.</li>
+            <li>We may estimate charges based on weight or item count; the final charge is determined after processing.</li>
+            <li>Taxes, fees, and surcharges (e.g., express, stain removal) will be displayed where applicable.</li>
+            <li>Payments are processed via secure third‑party providers. Accepted methods: <code class="placeholder">[UPI/Cards/Net‑Banking/Cash on Delivery policy]</code>.</li>
+            <li>By saving a payment method, you authorize us to charge it for your orders, adjustments, and applicable fees.</li>
+          </ul>
+        </section>
+
+        <section id="scheduling">
+          <h3>5) Scheduling, Pickup &amp; Delivery</h3>
+          <ul>
+            <li>You are responsible for packaging Items in a secure bag. Use of our bags is recommended where available.</li>
+            <li>Ensure accurate pickup/delivery address and access instructions.</li>
+            <li>If you opt for unattended pickup/delivery, you accept all risk of loss after drop‑off at the designated location.</li>
+            <li>We may use partner riders or third‑party logistics for transport.</li>
+            <li>Attempted pickup/delivery fee may apply if we are unable to complete service due to inaccurate information or no access: <code class="placeholder">[e.g., ₹49 per attempt]</code>.</li>
+          </ul>
+        </section>
+
+        <section id="care">
+          <h3>6) Garment Care &amp; Limitations</h3>
+          <ul>
+            <li>We follow care labels and industry best practices; if a care label is missing/incorrect, we use reasonable judgment.</li>
+            <li>Pre‑existing damage, weakened fabric, color bleeding, shrinkage, and manufacturer defects may limit outcomes.</li>
+            <li>Stain removal is not guaranteed; multiple treatments can risk damage.</li>
+            <li>Delicate/ornate items may require special handling or be declined.</li>
+          </ul>
+        </section>
+
+        <section id="loss">
+          <h3>7) Lost or Damaged Items</h3>
+          <ul>
+            <li>Report any suspected loss or damage within <code class="placeholder">[e.g., 48 hours]</code> of delivery with photos and order details.</li>
+            <li>Our liability, if any, is limited to the lesser of: (a) fair market value (depreciated) of the item; or (b) <code class="placeholder">[cap, e.g., ₹3,000 per order]</code>.</li>
+            <li>Proof of purchase or comparable value may be required; sentimental or consequential value is not covered.</li>
+            <li>For sets (e.g., suits, bedding), liability is limited to the affected piece.</li>
+          </ul>
+        </section>
+
+        <section id="quality">
+          <h3>8) Quality Guarantee &amp; Re‑cleaning</h3>
+          <p>If you are not satisfied, contact us within <code class="placeholder">[e.g., 24 hours]</code> of delivery. We will, at our discretion, re‑clean or re‑press the Item at no additional charge. This does not cover normal wear, irreversible stains, or faults arising from fabric limitations.</p>
+        </section>
+
+        <section id="prohibited">
+          <h3>9) Customer Responsibilities &amp; Prohibited Items</h3>
+          <ul>
+            <li>Check all pockets and remove valuables or hazardous materials (e.g., pens, lighters, batteries).</li>
+            <li>Do not include contaminated items (e.g., biohazards, bedbugs, mold) or illegal substances.</li>
+            <li>We may refuse, return, or dispose of unsafe items at your cost.</li>
+            <li>Allergies: we use standard detergents; if you require hypoallergenic options, indicate in the app: <code class="placeholder">[preference toggle/policy]</code>.</li>
+          </ul>
+        </section>
+
+        <section id="cancellations">
+          <h3>10) Cancellations, No‑Shows &amp; Delays</h3>
+          <ul>
+            <li>Cancel/reschedule in‑app before the cutoff time: <code class="placeholder">[e.g., 60 minutes before slot]</code>.</li>
+            <li>Late cancellations or no‑shows may incur a fee: <code class="placeholder">[e.g., ₹49]</code>.</li>
+            <li>Weather, traffic, operational or third‑party issues may cause delays; we will notify you and make reasonable efforts to complete service.</li>
+          </ul>
+        </section>
+
+        <section id="subscriptions">
+          <h3>11) Promotions, Credits &amp; Subscriptions</h3>
+          <ul>
+            <li>Promo codes and credits are single‑use unless stated, non‑transferable, and may expire.</li>
+            <li>Subscription plans auto‑renew until cancelled; see plan details for billing cycles and cancellation terms.</li>
+            <li>We may modify or withdraw offers at any time in accordance with applicable law.</li>
+          </ul>
+        </section>
+
+        <section id="app-use">
+          <h3>12) App Use &amp; Acceptable Use</h3>
+          <ul>
+            <li>You must be at least <code class="placeholder">[e.g., 18]</code> years old and capable of forming a binding contract.</li>
+            <li>Keep your account credentials secure; you are responsible for all activity under your account.</li>
+            <li>Do not misuse the Service (e.g., reverse engineer, scrape, interfere, or infringe others’ rights).</li>
+          </ul>
+        </section>
+
+        <section id="privacy">
+          <h3>13) Privacy</h3>
+          <p>Your use of the Service is also governed by our <a href="#" aria-label="Privacy Policy">Privacy Policy</a>. Where required, we process personal data as a data controller in accordance with applicable law.</p>
+        </section>
+
+        <section id="ip">
+          <h3>14) Intellectual Property</h3>
+          <p>All rights in the Service and its content are owned by CleanSwift or its licensors. You are granted a limited, non‑exclusive, non‑transferable license to access and use the app for personal, non‑commercial purposes.</p>
+        </section>
+
+        <section id="third-party">
+          <h3>15) Third‑Party Services</h3>
+          <p>We may integrate third‑party payment, logistics, or communication providers. We are not responsible for their acts, omissions, or terms. Your use of third‑party services may be subject to separate terms and privacy policies.</p>
+        </section>
+
+        <section id="warranties">
+          <h3>16) Disclaimers &amp; Warranties</h3>
+          <p>The Service is provided on an “as is” and “as available” basis. To the maximum extent permitted by law, we disclaim all warranties, express or implied, including merchantability, fitness for a particular purpose, and non‑infringement.</p>
+        </section>
+
+        <section id="liability">
+          <h3>17) Limitation of Liability</h3>
+          <p>To the maximum extent permitted by law, CleanSwift shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for lost profits, revenues, or data, arising from or related to your use of the Service. In all cases, our total liability shall not exceed <code class="placeholder">[liability cap, e.g., the amount you paid for the affected order]</code>.</p>
+        </section>
+
+        <section id="indemnity">
+          <h3>18) Indemnification</h3>
+          <p>You agree to defend, indemnify, and hold harmless CleanSwift and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses, including reasonable attorney fees, arising out of or related to your use of the Service, your Items, or your violation of these Terms or applicable law.</p>
+        </section>
+
+        <section id="termination">
+          <h3>19) Termination</h3>
+          <p>We may suspend or terminate your access to the Service at any time for any reason, including suspected misuse or non‑payment. You may stop using the Service at any time. Sections that by their nature should survive termination will survive (e.g., IP, disclaimers, limitations of liability).</p>
+        </section>
+
+        <section id="governing-law">
+          <h3>20) Governing Law &amp; Disputes</h3>
+          <p>These Terms are governed by the laws of <code class="placeholder">[Jurisdiction, e.g., India / specific state]</code>, without regard to conflict‑of‑laws rules.</p>
+          <p>Dispute resolution: <code class="placeholder">[e.g., amicable negotiation → mediation → binding arbitration seated in <city/state>, language English]</code>. You waive class actions to the extent permitted by law.</p>
+        </section>
+
+        <section id="contact">
+          <h3>21) Contact</h3>
+          <p>Legal entity: <code class="placeholder">[CleanSwift legal entity name]</code><br />
+             Registered address: <code class="placeholder">[Address]</code><br />
+             Customer support: <code class="placeholder">[support email/phone]</code></p>
+        </section>
+
+        <section id="changes">
+          <h3>22) Changes to These Terms</h3>
+          <p>We may update these Terms from time to time. Material changes will be notified via the app, email, or prominent notice. Continued use after the effective date of changes constitutes acceptance.</p>
+        </section>
+
+        <section id="misc">
+          <h3>23) Miscellaneous</h3>
+          <ul>
+            <li><strong>Severability:</strong> If any provision is invalid, the remaining provisions remain in effect.</li>
+            <li><strong>No Waiver:</strong> Failure to enforce a term is not a waiver.</li>
+            <li><strong>Assignment:</strong> You may not assign these Terms without our consent; we may assign in connection with a merger, acquisition, or asset sale.</li>
+            <li><strong>Entire Agreement:</strong> These Terms, along with referenced policies, are the entire agreement between you and us regarding the Service.</li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- (Rest of the content remains the same as before) -->
+
+      <footer>
+        <span class="muted">© <span id="year"></span> <span id="company-name">CleanSwift</span>. All rights reserved.</span>
+        <a class="btn-top" href="#top" aria-label="Back to top">↑ Back to top</a>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    const lastUpdatedEl = document.getElementById('last-updated');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    if (lastUpdatedEl) lastUpdatedEl.textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
